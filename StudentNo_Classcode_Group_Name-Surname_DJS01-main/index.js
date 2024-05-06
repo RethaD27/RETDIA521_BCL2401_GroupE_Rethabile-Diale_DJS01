@@ -21,7 +21,7 @@ const rf = fuel - (fbr*time); //calculates remaining fuel
 
 // Calculate new velocity based on acceleration
 const calcNewVel = (vel, acc, time) => { 
-  return vel + (acc*(time/3600));
+  return vel + (acc*(time*3.6));
 }
 
 const vel2 = calcNewVel(vel, acc, time);
