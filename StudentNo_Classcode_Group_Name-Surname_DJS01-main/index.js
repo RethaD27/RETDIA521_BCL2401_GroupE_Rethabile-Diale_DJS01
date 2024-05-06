@@ -26,9 +26,9 @@ const calcNewVel = (vel, acc, time) => {
 
 const vel2 = calcNewVel(vel, acc, time);
 
-console.log(`Corrected New Velocity: ${vel2} km/h`);
-console.log(`Corrected New Distance: ${d2} km`);
-console.log(`Corrected Remaining Fuel: ${rf} kg`);
+console.log(`Corrected New Velocity: ${vel2.toFixed(2)} km/h`);
+console.log(`Corrected New Distance: ${d2.toFixed(2)} km`);
+console.log(`Corrected Remaining Fuel: ${rf.toFixed(2)} kg`);
 
 
 
